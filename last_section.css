@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.lastsection{
+    margin: 2% 0;
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 0 10px;
+}
+.appbox{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 200px;
+    /* border: 1px solid black; */
+    margin: 0 2%;
+}
+.appbox h5{
+    text-transform: uppercase;
+}
+.appbox button{
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius:5px ;
+    width: 200px;
+
+}
+.appbox button  .left i{
+    padding: 5px;
+    color: white;
+    font-size: 35px;
+}
+.appbox button .right p,h5{
+    font-size: 20px;
+}
+.last-para{
+    margin: 2% 2%;
+}
